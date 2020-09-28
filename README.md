@@ -5,9 +5,9 @@ Create reservation website with only adding a firestore db
 ## Setting up
 
 1. Create Firebase account
-1. Create Firestore collection 'rentProviders'
-1. Create document rentProvider1 with your data:
-
+2. Create Firestore collection 'rentProviders'
+3. Create document rentProvider1 with your data:
+```
     title: <string>
     subtitle: <string>
     open: <number> - hour of opening
@@ -22,5 +22,5 @@ Create reservation website with only adding a firestore db
             }
         }
     ]
-
-1. Add info for connecting to Firebase in 'projectFolder/src/api/firestore.js/firebaseConfig
+```
+4. Add info for connecting to Firebase in 'projectFolder/src/api/firestore.js/firebaseConfig
