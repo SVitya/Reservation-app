@@ -1,0 +1,47 @@
+* {box-sizing: border-box;}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: url(./images/bg.jpg) no-repeat 40% fixed;
+    background-size: cover;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#root {
+    min-height: 100%;
+    color: white;
+    padding: 5%;
+}
+
+@media (min-width: 800px) {
+
+    #root {
+        width: 50%;
+        margin-left: auto;
+        padding: 2%;
+    }
+
+    .home, .price, .reservation {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 2000px) {
+
+    .home, .price, .reservation {
+        font-size: 2.5em;
+    }
+}

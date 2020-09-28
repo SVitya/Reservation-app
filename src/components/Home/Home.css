@@ -1,0 +1,45 @@
+.home {
+    margin: 0;
+    text-align: right;
+    text-shadow: 2px 2px 0 #000;
+}
+
+.home h1 {
+    margin-top: 2em;
+    font-size: 3em;
+}
+
+.home p {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.home a {
+    border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 0.2em 0.5em;
+}
+
+.home a:first-of-type {
+    margin-right: 1.5em;
+}
+
+.home a:hover, .home a:focus, .home a:active {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (min-width: 750px) {
+
+    .home {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 2000px) {
+
+    .home {
+        font-size: 2.5em;
+    }
+}

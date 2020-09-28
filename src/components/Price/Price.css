@@ -1,0 +1,49 @@
+.price table {
+    width: 100%;
+    font-size: 1.2em;
+    padding: 0.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.price td {
+    width: 50%;
+}
+
+.price td:nth-of-type(2n+1) {
+    text-align: left;
+}
+
+.price td:nth-of-type(2n) {
+    text-align: right;
+}
+
+.price a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 0.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 0.2em 0.5em;
+}
+
+.price a:hover, .price a:focus, .price a:active {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 750px) {
+    
+    .price {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 2000px) {
+
+    .price {
+        font-size: 2.5em;
+    }
+}
