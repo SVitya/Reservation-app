@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Reservation-app/static/css/main.2f21eb86.chunk.css",
+    "main.js": "/Reservation-app/static/js/main.682548fd.chunk.js",
+    "main.js.map": "/Reservation-app/static/js/main.682548fd.chunk.js.map",
+    "runtime-main.js": "/Reservation-app/static/js/runtime-main.a32cf3b2.js",
+    "runtime-main.js.map": "/Reservation-app/static/js/runtime-main.a32cf3b2.js.map",
+    "static/js/2.e177f8dd.chunk.js": "/Reservation-app/static/js/2.e177f8dd.chunk.js",
+    "static/js/2.e177f8dd.chunk.js.map": "/Reservation-app/static/js/2.e177f8dd.chunk.js.map",
+    "index.html": "/Reservation-app/index.html",
+    "precache-manifest.2da86679456ed59697253666c24d654a.js": "/Reservation-app/precache-manifest.2da86679456ed59697253666c24d654a.js",
+    "service-worker.js": "/Reservation-app/service-worker.js",
+    "static/css/main.2f21eb86.chunk.css.map": "/Reservation-app/static/css/main.2f21eb86.chunk.css.map",
+    "static/js/2.e177f8dd.chunk.js.LICENSE.txt": "/Reservation-app/static/js/2.e177f8dd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Reservation-app/static/media/bg.18d65fcc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a32cf3b2.js",
+    "static/js/2.e177f8dd.chunk.js",
+    "static/css/main.2f21eb86.chunk.css",
+    "static/js/main.682548fd.chunk.js"
+  ]
+}
