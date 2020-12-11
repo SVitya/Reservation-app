@@ -15,7 +15,7 @@ function dateFormatting(date) {
     let month = date.getMonth() + 1;
     let day = '' + date.getDate();
 
-    if (month.toString.length < 2) {
+    if (month.length < 2) {
         month = '0' + month;
     }
     if (day.length < 2) {
